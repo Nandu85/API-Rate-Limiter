@@ -1,0 +1,6 @@
+resilience4j:
+  ratelimiter:
+    instances:
+      myRateLimiter:
+        limitForPeriod: 10
+        limitRefreshPeriod: 1m
