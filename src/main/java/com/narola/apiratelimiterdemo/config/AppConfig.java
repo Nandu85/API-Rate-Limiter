@@ -1,5 +1,6 @@
-package com.narola.apiratelimiterdemo;
+package com.narola.apiratelimiterdemo.config;
 
+import com.narola.apiratelimiterdemo.interceptor.RateLimiterInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
